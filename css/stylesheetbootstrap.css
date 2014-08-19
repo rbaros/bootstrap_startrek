@@ -1,0 +1,146 @@
+/* NEW BOOTSTRAP CSS */
+body
+{
+    background-color: #000;
+}
+.mainNav
+{
+    padding: 0px;
+}
+
+.mainNav a
+{
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    background-color: #316EFF;
+    border: 4px solid #000;
+    border-radius: 8px;
+    font-family: 'Geo', sans-serif;
+    font-size: 2.25em;
+    color: #000;
+    text-decoration: none;
+}
+
+.mainNav a:hover
+{
+    color: #fff;
+    background-color: #12295E;
+}
+
+.secNav
+{   
+    padding: 0px;
+}
+
+.secNav a
+{
+    display: block;
+    height: 40px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #FF2424;
+    border: 4px solid #000;
+    border-radius: 8px;   
+    font-family: 'Geo', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+    text-decoration: none;
+}
+
+.secNav a:hover
+{
+    color: #fff;
+    background-color: #701010;
+}
+
+article
+{
+    padding: 0px 10px 20px 10px;
+    background-color: #FF9400;
+    border-radius: 8px;
+    border: 4px solid #000;
+}
+
+h2, h3
+{
+    font-family: 'Geo', sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+#reserveButton
+{
+    position: relative;
+    margin-right: 20px;
+    margin-top: -20px;
+    float: right;
+    background-color: #8C5100;
+    border: 3px solid #8C5100;
+    border-radius: 4px;
+}
+#reserveButton a
+{
+    color: #FF9400;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Geo', sans-serif;
+}
+
+#reserveButton:hover
+{
+    background-color: #402500;
+    border: 3px solid #402500;
+}
+
+@media (max-width: 768px)
+{
+    .mainNav
+    {
+        border-right: none;
+    }
+    .secNav
+    {
+        border-right: none;
+    }
+}
+
+.divider
+{
+    height: 6px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FF9400;
+    border: 2px solid #000;
+    border-radius: 4px; 
+}
+
+.images
+{
+    margin-top: 10px;
+}
+
+.admiral
+{
+    padding: 0px 10px 20px 10px;
+    border: 4px solid #000;
+    color: #fff;
+    border-radius: 8px;
+    background-image: url(http://reserve.louie.land/Wallpapers/Star%20Trek/Command%20-%20iPhone.jpg);
+}
+.ensign
+{
+    padding: 0px 10px 20px 10px;
+    border: 4px solid #000;
+    color: #fff;
+    border-radius: 8px;
+    background-image: url(http://reserve.louie.land/Wallpapers/Star%20Trek/Engineering%20-%20iPhone.jpg);
+}
+.commander
+{
+    padding: 0px 10px 20px 10px;
+    border: 4px solid #000;
+    color: #fff;
+    border-radius: 8px;
+    background-image: url(http://reserve.louie.land/Wallpapers/Star%20Trek/Life%20Sciences%20-%20iPhone.jpg);
+}
