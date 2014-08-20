@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>JNJ Travel Enterprises</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Geo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/stylesheetbootstrap.css">
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,38 +21,36 @@
     <![endif]-->
   </head>
   <body>
-            <header>
-                <ul class="nav">
-			<a href="index.html"><li>JNJ Travel</li></a>
-			<a href="travel-class.html"><li>TRAVEL CLASS</li></a>
-			<a href="planetrisa.html"><li>PLANETS</li></a>
-		</ul>
-            </header>
-		<ul class="secondaryNav">
-			<a href="planetrisa.html"><li>RISA</li></a>
-			<a href="bajor.html"><li>BAJOR</li></a>
-			<a href="pacifica.html"><li>PACIFICA</li></a>
-			<a href="vulcan.html"><li>VULCAN</li></a>
-		</ul>
-		<div class="divider"></div>
-	        <div class="divider"></div>
-            <article>
-		<div class="leftContent">
-                <h2>Register Here!</h2>
-               
-		    
-		   <form>
+    <div class="container">
+        <nav class="row">
+            <section class="mainNav col-sm-3"><a href="index.html">JNJ TRAVEL</a></section>
+            <section class="mainNav col-sm-3"><a href="travel-class.html">TRAVEL CLASS</a></section>
+            <section class="mainNav col-sm-3"><a href="risa.html">PLANETS</a></section>
+            <section class="mainNav col-sm-3"><a href="registration.html">ENGAGE</a></section>
+        </nav>
+        <nav class="row">
+            <section class="secNav col-sm-2"><a href="risa.html">RISA</a></section>
+            <section class="secNav col-sm-2"><a href="bajor.html">BAJOR</a></section>
+            <section class="secNav col-sm-2"><a href="pacifica.html">PACIFICA</a></section>
+            <section class="secNav col-sm-2"><a href="vulcan.html">VULCAN</a></section>
+        </nav>
+        <div class="row">
+          <div class="divider"></div>
+        </div>
+        <article class="row">
+            <h2>Register Here</h2>
+	    <form>
                   <br>
                               <input type="radio" name="sex" value="male">Vulcan<br>
                               <input type="radio" name="sex" value="female">Klingon
-                   </form> </p>
-                    
-                
-            
-	    
-	    
-<h2>Sign Up</h2>
-<form action="http://www.SnapHost.com/captcha/WebFormSubmit.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);">
+                   </form> 
+		
+		
+		
+	    <h3>Sign Up</h3>
+		<p class="planetInfo">
+		  
+		  <form action="http://www.SnapHost.com/captcha/WebFormSubmit.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);">
 <input id="SnapHostID" name="SnapHostID" type="hidden" value="FLESRAZP72CT" />
 <script type="text/javascript">
 function ValidateForm(frm) {
@@ -140,13 +141,27 @@ src="http://www.SnapHost.com/captcha/WebForm.aspx?id=FLESRAZP72CT&ImgType=2" /><
 <br />
 </form>
 </div>
-		 <div class="planetImage" >
-                    <img src="images/registration.jpg" alt="Risa" height="730" width="500">
-		 </div>
-	  </article>  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  <br /><!-- Enter your description here --></p>
+	    <div id="reserveButton"><a href="registration.html">RESERVE</a></div>
+        </article>
+        <div class="row">
+            <img src="images/bajor-map.jpg" alt="bajor-map">
+            <img src="images/bajor1.jpg" alt="bajor1">
+        </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
